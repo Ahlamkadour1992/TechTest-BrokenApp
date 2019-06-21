@@ -1,16 +1,18 @@
-<h1>{{capitalize singleAnimal.animal_name}}</h1>
+{{#each singleAnimal}}
+<h1>{{capitalize this.animal_name}}</h1>
 <section>
   <div>
-    <img src={{singleAnimal.img_link}} alt={{singleAnimal.name}} />
+    <img src={{this.img_link}} alt={{this.animal_name}} />
   </div>
   <div>
     <label><b>Habitat</b></label>
-    <p>{{singleAnimal.habitat}}</p>
+    <p>{{this.habitat}}</p>
     <label><b>Origin</b></label>
-    <p>{{singleAnimal.origin}}</p>
+    <p>{{this.origin}}</p>
     <label><b>Facts</b></label>
-    <p>{{singleAnimal.facts}}</p>
+    <p>{{this.facts}}</p>
     <label><b>Myths</b></label>
-    <p>{{singleAnimal.myths}}</p>
+    <p>{{this.myths}}</p>
   </div>
 </section>
+{{/each}}
