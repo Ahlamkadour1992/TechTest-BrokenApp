@@ -1,6 +1,6 @@
 module.exports = {
   elephant: {
-    name: "Mouse",
+    name: "elephant",
     img_link: "/assets/animals/elephant.jpeg",
     habitat: "Lives in the toundra in Africa.",
     origin: "Africa",
@@ -8,7 +8,7 @@ module.exports = {
     myths: "the long lost elephant"
   },
   tiger: {
-    name: "Horse",
+    name: "tiger",
     img_link: "/assets/animals/tiger.jpeg",
     habitat: "Lives in the jungle",
     origin: "Somewhere in the jungle",
@@ -16,7 +16,7 @@ module.exports = {
     myths: "The tiger and the dragon"
   },
   koala: {
-    name: "Cat",
+    name: "koala",
     img_link: "/assets/animals/koala.jpeg",
     habitat: "The forest",
     origin: "Asia",
@@ -24,7 +24,7 @@ module.exports = {
     myths: "Something cute"
   },
   kangoroo: {
-    name: "Lizard",
+    name: "kangoroo",
     img_link: "/assets/animals/kangoroo.jpeg",
     habitat: "The forest",
     origin: "Australia",
@@ -32,7 +32,7 @@ module.exports = {
     myths: "The bouncing Kangoroo"
   },
   lion: {
-    name: "Fish",
+    name: "lion",
     img_link: "/assets/animals/lion.jpeg",
     habitat: "The JUNGLE",
     origin: "Africa",
@@ -40,7 +40,7 @@ module.exports = {
     myths: "The lion King"
   },
   giraffe: {
-    name: "Cow",
+    name: "giraffe",
     img_link: "/assets/animals/giraffe.jpeg",
     habitat: "The plains of Africa",
     origin: "Unknown",
@@ -48,7 +48,7 @@ module.exports = {
     myths: "Giraffe and friends"
   },
   antilope: {
-    name: "Rabbit",
+    name: "antilope",
     img_link: "/assets/animals/antilope.jpeg",
     habitat: "The plains",
     origin: "no idea",
